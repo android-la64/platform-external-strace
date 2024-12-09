@@ -1711,6 +1711,9 @@
 /* Define for the RISC-V architecture */
 #undef RISCV
 
+/* Define for the LA architecture */
+#undef LOONGARCH
+
 /* Define for the S390 architecture. */
 #undef S390
 
