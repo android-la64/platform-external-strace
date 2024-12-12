@@ -303,10 +303,11 @@ cc_binary {
             ],
         },
         loongarch64: {
+            enabled: false,
             cflags: ["-DLOONGARCH=1"],
 
             local_include_dirs: [
-                "linux/loongarch",
+                "linux/loongarch64",
                 "linux",
             ],
         },

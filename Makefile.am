@@ -735,6 +735,22 @@ EXTRA_DIST =				\
 	linux/riscv/set_scno.c		\
 	linux/riscv/syscallent.h	\
 	linux/riscv/syscallent1.h	\
+	linux/loongarch64/arch_defs_.h	\
+	linux/loongarch64/arch_regs.c		\
+	linux/loongarch64/arch_regs.h		\
+	linux/loongarch64/arch_rt_sigframe.c	\
+	linux/loongarch64/get_error.c		\
+	linux/loongarch64/get_scno.c		\
+	linux/loongarch64/get_syscall_args.c	\
+	linux/loongarch64/ioctls_arch0.h	\
+	linux/loongarch64/ioctls_arch1.h	\
+	linux/loongarch64/ioctls_inc0.h	\
+	linux/loongarch64/ioctls_inc1.h	\
+	linux/loongarch64/raw_syscall.h	\
+	linux/loongarch64/set_error.c		\
+	linux/loongarch64/set_scno.c		\
+	linux/loongarch64/syscallent.h	\
+	linux/loongarch64/syscallent1.h	\
 	linux/rt_sigframe.h		\
 	linux/s390/arch_defs_.h		\
 	linux/s390/arch_regs.c		\
